@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Testxtension</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body width="800px">
+    <div id="header"><center><h1 id="section1">Package Report Parser</h1></center></div>
+    <div id="ptext"> 
+    	You're in the wrong place. Navigate to the StarRez Dashboard! <br><br>
+
+    	<b>Step 1:</b> Go to <a href="https://housingportal.osu.edu/StarRezWeb" target="_blank"> https://housingportal.osu.edu/StarRezWeb/</a><br>
+
+ 	   	<b>Step 2:</b> Sign in with your OSU Credentials.<br>
+
+    	<b>Step 3:</b> Select 'Dashboard' in the upper left corner. <br>
+
+    	<b>Step 4:</b> Open this extension.<br>
+
+    </div>
+    <div id="inputbox">
+      
+    	Check packages older than <input type="number" id="numDays" height="10px" width="15px" min=0 disabled="true" value=0> days.
+    
+    </div>
+    <div id="buttonbox">
+      <button id="copyAddress" disabled="true">Copy Addresses</button>
+    </div>
+  </body>
+</html>
