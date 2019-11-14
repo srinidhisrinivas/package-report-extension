@@ -1,5 +1,5 @@
 var url = document.URL;
-var isDash = url.includes("dashboard");
+var isDash = url.includes("dashboard") && url.includes("StarRezWeb");
 
 function fetchPackageInfo(element){
 	var dict = [];
