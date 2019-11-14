@@ -80,7 +80,7 @@ function onWindowLoad() {
 	  	inp.disabled=false;
 
 		text.innerText = "Congratulations on making it to the right place!"
-	  	text.innerText += "\n\nREMEMBER: Make sure you scroll all the way down on the package list to account for all the packages."
+	  	text.innerText += "\n\nREMEMBER: Make sure you scroll all the way down on the 'Bradley Paterson Package Log' to account for all the packages."
 	  	text.innerText += "\n\nClick 'Copy Addresses' and then you can Right Click->Paste or Ctrl+V in Outlook to add these emails as recipients."
 
 		});
