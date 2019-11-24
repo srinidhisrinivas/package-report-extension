@@ -1,7 +1,13 @@
+<!--
+This is the HTML script that describes the popup that you see when you open the extension!
+It's kind of like a normal webpage, but in a little rectangle instead, which makes it easier
+since you don't have to worry about too many things.
+-->
 <!doctype html>
 <html>
   <head>
-    <title>Testxtension</title>
+    <title>Package Report Parser</title>
+    <!-- Linking JavaScript file and CSS file -->
     <script src="popup.js"></script>
     <link rel="stylesheet" type="text/css" href="popup.css">
   </head>
@@ -21,11 +27,14 @@
     	<b>Step 5:</b> Open this extension.<br>
 
     </div>
+
+    <!-- This is the box where you can enter the number of days -->
     <div id="inputbox">
       
     	Check packages older than <input type="number" id="numDays" height="10px" width="15px" min=0 disabled="true" value=0> days.
     
     </div>
+    <!-- This is the button to press to make the extension copy the email addresses. -->
     <div id="buttonbox">
       <button id="copyAddress" disabled="true">Copy Addresses</button>
     </div>
